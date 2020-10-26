@@ -1,10 +1,10 @@
 <?php
 class Contato {
     private $pdo;
-    private $DBNAME = "crudoo";
-    private $DBHOST = "127.0.0.1";
-    private $DBUSR  = "root";
-    private $DBPWD  = "admin";
+    private $DBNAME = "YOUR DB NAME";
+    private $DBHOST = "YOUR DB ADDR";
+    private $DBUSR  = "YOUR DB USR";
+    private $DBPWD  = "YOUR DB PASS";
 
     public function __construct() {
         $dsn = "mysql:dbname=".$this->DBNAME.";host=".$this->DBHOST;
